@@ -15,6 +15,8 @@
 		D58D3A201F92BFB8006EF24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58D3A1E1F92BFB8006EF24E /* LaunchScreen.storyboard */; };
 		D58D3A2B1F92BFB8006EF24E /* WalmartBucketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A2A1F92BFB8006EF24E /* WalmartBucketTests.swift */; };
 		D58D3A361F92BFB8006EF24E /* WalmartBucketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A351F92BFB8006EF24E /* WalmartBucketUITests.swift */; };
+		D5B61ADD1F92C7A100C79339 /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5B61ADB1F92C7A100C79339 /* Image1.jpg */; };
+		D5B61ADE1F92C7A100C79339 /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5B61ADC1F92C7A100C79339 /* Image2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D58D3A311F92BFB8006EF24E /* WalmartBucketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartBucketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58D3A351F92BFB8006EF24E /* WalmartBucketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartBucketUITests.swift; sourceTree = "<group>"; };
 		D58D3A371F92BFB8006EF24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B61ADB1F92C7A100C79339 /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image1.jpg; path = ../../../../Downloads/Image1.jpg; sourceTree = "<group>"; };
+		D5B61ADC1F92C7A100C79339 /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image2.jpg; path = ../../../../Downloads/Image2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */,
 				D58D3A171F92BFB8006EF24E /* ViewController.swift */,
 				D58D3A191F92BFB8006EF24E /* Main.storyboard */,
+				D5B61ADB1F92C7A100C79339 /* Image1.jpg */,
+				D5B61ADC1F92C7A100C79339 /* Image2.jpg */,
 				D58D3A1C1F92BFB8006EF24E /* Assets.xcassets */,
 				D58D3A1E1F92BFB8006EF24E /* LaunchScreen.storyboard */,
 				D58D3A211F92BFB8006EF24E /* Info.plist */,
@@ -236,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8CE6EDD1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png in Resources */,
+				D5B61ADE1F92C7A100C79339 /* Image2.jpg in Resources */,
 				D58D3A201F92BFB8006EF24E /* LaunchScreen.storyboard in Resources */,
+				D5B61ADD1F92C7A100C79339 /* Image1.jpg in Resources */,
 				D58D3A1D1F92BFB8006EF24E /* Assets.xcassets in Resources */,
 				D58D3A1B1F92BFB8006EF24E /* Main.storyboard in Resources */,
 			);
