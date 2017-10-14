@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8CE6EDD1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */; };
 		D58D3A161F92BFB8006EF24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A151F92BFB8006EF24E /* AppDelegate.swift */; };
 		D58D3A181F92BFB8006EF24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A171F92BFB8006EF24E /* ViewController.swift */; };
 		D58D3A1B1F92BFB8006EF24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58D3A191F92BFB8006EF24E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-10-12 at 6.59.27 PM.png"; sourceTree = "<group>"; };
 		D58D3A121F92BFB8006EF24E /* WalmartBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58D3A151F92BFB8006EF24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D58D3A171F92BFB8006EF24E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D58D3A151F92BFB8006EF24E /* AppDelegate.swift */,
+				A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */,
 				D58D3A171F92BFB8006EF24E /* ViewController.swift */,
 				D58D3A191F92BFB8006EF24E /* Main.storyboard */,
 				D58D3A1C1F92BFB8006EF24E /* Assets.xcassets */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8CE6EDD1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png in Resources */,
 				D58D3A201F92BFB8006EF24E /* LaunchScreen.storyboard in Resources */,
 				D58D3A1D1F92BFB8006EF24E /* Assets.xcassets in Resources */,
 				D58D3A1B1F92BFB8006EF24E /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				D58D3A3C1F92BFB8006EF24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D58D3A3D1F92BFB8006EF24E /* Build configuration list for PBXNativeTarget "WalmartBucketTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				D58D3A3F1F92BFB8006EF24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D58D3A401F92BFB8006EF24E /* Build configuration list for PBXNativeTarget "WalmartBucketUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				D58D3A421F92BFB8006EF24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
