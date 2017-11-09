@@ -8,39 +8,80 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
-    @IBOutlet weak var ClickMeButton: UIButton!
-    @IBOutlet weak var WalmartLabel: UILabel!
-    @IBOutlet weak var backgroundImage: UIImageView!
-    var count = 0;
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    var images = [UIImage]();
+    var names = [String]();
+    var selectedIndex = -1;
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return 5;
+    }
+    
+    @available(iOS 2.0, *)
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemHolder", for: indexPath)
+        
+        cell.imageView?.image = images[indexPath.row];
+        cell.imageView?.contentMode = .scaleAspectFill;
+        cell.textLabel?.text = names[indexPath.row];
+        
+        
+        return cell;
+    }
+    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedIndex = indexPath.row;
+        self.performSegue(withIdentifier: "firstSegue", sender: self)
+        
     }
 
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let image1 = UIImage(named: "Image1.jpg");
+        let image2 = UIImage(named: "Image2.jpg");
+        let image3 = UIImage(named: "Image3.jpg");
+        let image4 = UIImage(named: "Image4.jpg");
+        let image5 = UIImage(named: "Image5.jpg");
+        
+        images.append(image1!);
+        images.append(image2!);
+        images.append(image3!);
+        images.append(image4!);
+        images.append(image5!);
+        
+        names.append("A");
+        names.append("B");
+        names.append("C");
+        names.append("D");
+        names.append("E");
+        
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "firstSegue" {
+            let secondViewController = segue.destination as! SecondViewController;
+            
+            secondViewController.images = images[selectedIndex]
+            secondViewController.names = names[selectedIndex]
+            
+            
+            
+            
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
-    @IBAction func ClickMeAction(_ sender: UIButton) {
-     let backgroundImage1 = UIImage(named: "Image1.jpg")
-    let backgroundImage2 = UIImage(named: "Image2.jpg")
-        
-        if(count % 2 == 0){
-            backgroundImage.image = backgroundImage1
-            count+=1
-        }
-        else{
-            backgroundImage.image = backgroundImage2
-            count += 1
-        }
-        
-        
-    }
 }
 
