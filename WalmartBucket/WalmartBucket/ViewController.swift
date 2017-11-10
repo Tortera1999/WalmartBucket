@@ -71,10 +71,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             secondViewController.images = images[selectedIndex]
             secondViewController.names = names[selectedIndex]
-            
-            
-            
-            
         }
     }
     
