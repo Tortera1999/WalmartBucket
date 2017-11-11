@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A859522F1FB6695600C1840E /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522A1FB6695600C1840E /* Image1.jpg */; };
+		A85952301FB6695600C1840E /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522B1FB6695600C1840E /* Image2.jpg */; };
+		A85952311FB6695600C1840E /* Image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522C1FB6695600C1840E /* Image3.jpg */; };
+		A85952321FB6695600C1840E /* Image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522D1FB6695600C1840E /* Image4.jpg */; };
+		A85952331FB6695600C1840E /* Image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522E1FB6695600C1840E /* Image5.jpg */; };
 		A8CE6EDD1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */; };
-		D58687191FB3CEA4006E2C1B /* Image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58687161FB3CEA4006E2C1B /* Image3.jpg */; };
-		D586871A1FB3CEA4006E2C1B /* Image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58687171FB3CEA4006E2C1B /* Image4.jpg */; };
-		D586871B1FB3CEA4006E2C1B /* Image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D58687181FB3CEA4006E2C1B /* Image5.jpg */; };
 		D586871D1FB3D14C006E2C1B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586871C1FB3D14C006E2C1B /* SecondViewController.swift */; };
 		D58D3A161F92BFB8006EF24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A151F92BFB8006EF24E /* AppDelegate.swift */; };
 		D58D3A181F92BFB8006EF24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A171F92BFB8006EF24E /* ViewController.swift */; };
@@ -19,8 +21,6 @@
 		D58D3A201F92BFB8006EF24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58D3A1E1F92BFB8006EF24E /* LaunchScreen.storyboard */; };
 		D58D3A2B1F92BFB8006EF24E /* WalmartBucketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A2A1F92BFB8006EF24E /* WalmartBucketTests.swift */; };
 		D58D3A361F92BFB8006EF24E /* WalmartBucketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A351F92BFB8006EF24E /* WalmartBucketUITests.swift */; };
-		D5B61ADD1F92C7A100C79339 /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5B61ADB1F92C7A100C79339 /* Image1.jpg */; };
-		D5B61ADE1F92C7A100C79339 /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5B61ADC1F92C7A100C79339 /* Image2.jpg */; };
 		D5FE00E71FB584C40015E17B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE00E61FB584C40015E17B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A859522A1FB6695600C1840E /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image1.jpg; path = ../Image1.jpg; sourceTree = "<group>"; };
+		A859522B1FB6695600C1840E /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image2.jpg; path = ../Image2.jpg; sourceTree = "<group>"; };
+		A859522C1FB6695600C1840E /* Image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image3.jpg; path = ../Image3.jpg; sourceTree = "<group>"; };
+		A859522D1FB6695600C1840E /* Image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image4.jpg; path = ../Image4.jpg; sourceTree = "<group>"; };
+		A859522E1FB6695600C1840E /* Image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image5.jpg; path = ../Image5.jpg; sourceTree = "<group>"; };
 		A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-10-12 at 6.59.27 PM.png"; sourceTree = "<group>"; };
-		D58687161FB3CEA4006E2C1B /* Image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image3.jpg; path = ../../../../Downloads/Image3.jpg; sourceTree = "<group>"; };
-		D58687171FB3CEA4006E2C1B /* Image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image4.jpg; path = ../../../../Downloads/Image4.jpg; sourceTree = "<group>"; };
-		D58687181FB3CEA4006E2C1B /* Image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image5.jpg; path = ../../../../Downloads/Image5.jpg; sourceTree = "<group>"; };
 		D586871C1FB3D14C006E2C1B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		D58D3A121F92BFB8006EF24E /* WalmartBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58D3A151F92BFB8006EF24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +62,6 @@
 		D58D3A311F92BFB8006EF24E /* WalmartBucketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartBucketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58D3A351F92BFB8006EF24E /* WalmartBucketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartBucketUITests.swift; sourceTree = "<group>"; };
 		D58D3A371F92BFB8006EF24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5B61ADB1F92C7A100C79339 /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image1.jpg; path = ../../../../Downloads/Image1.jpg; sourceTree = "<group>"; };
-		D5B61ADC1F92C7A100C79339 /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image2.jpg; path = ../../../../Downloads/Image2.jpg; sourceTree = "<group>"; };
 		D5FE00E61FB584C40015E17B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,17 +113,17 @@
 		D58D3A141F92BFB8006EF24E /* WalmartBucket */ = {
 			isa = PBXGroup;
 			children = (
+				A859522A1FB6695600C1840E /* Image1.jpg */,
+				A859522B1FB6695600C1840E /* Image2.jpg */,
+				A859522C1FB6695600C1840E /* Image3.jpg */,
+				A859522D1FB6695600C1840E /* Image4.jpg */,
+				A859522E1FB6695600C1840E /* Image5.jpg */,
 				D586871C1FB3D14C006E2C1B /* SecondViewController.swift */,
 				D58D3A151F92BFB8006EF24E /* AppDelegate.swift */,
 				A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */,
 				D58D3A171F92BFB8006EF24E /* ViewController.swift */,
 				D5FE00E61FB584C40015E17B /* ThirdViewController.swift */,
 				D58D3A191F92BFB8006EF24E /* Main.storyboard */,
-				D5B61ADB1F92C7A100C79339 /* Image1.jpg */,
-				D5B61ADC1F92C7A100C79339 /* Image2.jpg */,
-				D58687161FB3CEA4006E2C1B /* Image3.jpg */,
-				D58687171FB3CEA4006E2C1B /* Image4.jpg */,
-				D58687181FB3CEA4006E2C1B /* Image5.jpg */,
 				D58D3A1C1F92BFB8006EF24E /* Assets.xcassets */,
 				D58D3A1E1F92BFB8006EF24E /* LaunchScreen.storyboard */,
 				D58D3A211F92BFB8006EF24E /* Info.plist */,
@@ -256,15 +256,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D586871A1FB3CEA4006E2C1B /* Image4.jpg in Resources */,
+				A85952321FB6695600C1840E /* Image4.jpg in Resources */,
+				A859522F1FB6695600C1840E /* Image1.jpg in Resources */,
 				A8CE6EDD1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png in Resources */,
-				D5B61ADE1F92C7A100C79339 /* Image2.jpg in Resources */,
-				D58687191FB3CEA4006E2C1B /* Image3.jpg in Resources */,
+				A85952311FB6695600C1840E /* Image3.jpg in Resources */,
+				A85952301FB6695600C1840E /* Image2.jpg in Resources */,
 				D58D3A201F92BFB8006EF24E /* LaunchScreen.storyboard in Resources */,
-				D5B61ADD1F92C7A100C79339 /* Image1.jpg in Resources */,
 				D58D3A1D1F92BFB8006EF24E /* Assets.xcassets in Resources */,
 				D58D3A1B1F92BFB8006EF24E /* Main.storyboard in Resources */,
-				D586871B1FB3CEA4006E2C1B /* Image5.jpg in Resources */,
+				A85952331FB6695600C1840E /* Image5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

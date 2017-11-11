@@ -38,6 +38,9 @@ class SecondViewController: UIViewController {
         self.performSegue(withIdentifier: "secondSegue", sender: self)
     }
     
+    
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "secondSegue" {
             let thirdViewController = segue.destination as! ThirdViewController;
@@ -67,6 +70,7 @@ class SecondViewController: UIViewController {
 extension SecondViewController : UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder();
+        self.Calculatr(self)
         return true;
     }
 }
