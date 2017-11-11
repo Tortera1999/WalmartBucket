@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q6N-Yg-PGF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nxt-Ur-D6T">
-                                <rect key="frame" x="0.0" y="51" width="375" height="616"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -50,13 +50,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.93934354039521462" green="1" blue="0.34548887784054672" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="G6n-Dx-FIS"/>
                     <connections>
                         <segue destination="tha-Li-RdE" kind="show" identifier="firstSegue" id="YC1-Ps-RNv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="234" y="89"/>
+            <point key="canvasLocation" x="1172" y="88.605697151424295"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="NaY-80-dQY">
@@ -108,7 +109,6 @@
                                 <state key="normal" title="Buy"/>
                                 <connections>
                                     <action selector="Buy:" destination="tha-Li-RdE" eventType="touchUpInside" id="9MK-3A-tAR"/>
-                                    <segue destination="OHf-Lu-3T2" kind="show" identifier="secondSegue" id="bF0-ct-wrt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNu-ty-X75">
@@ -134,11 +134,12 @@
                         <outlet property="Label" destination="OXV-fa-vN6" id="Xsd-4t-xPG"/>
                         <outlet property="TextViewForPrice" destination="dvc-iv-oqG" id="I4z-5Z-P2Z"/>
                         <outlet property="quantityTextField" destination="mSc-zF-3cT" id="zEB-YJ-0Pu"/>
+                        <segue destination="OHf-Lu-3T2" kind="show" identifier="secondSegue" id="iVb-bf-0hT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1sn-T7-U1O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="925.60000000000002" y="88.605697151424295"/>
+            <point key="canvasLocation" x="1864.8" y="88.605697151424295"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="mug-bw-WHW">
@@ -310,7 +311,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CqF-wA-ptD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1789.5999999999999" y="78.710644677661179"/>
+            <point key="canvasLocation" x="2728.8000000000002" y="78.710644677661179"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lqb-1Y-auP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q6N-Yg-PGF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5HR-XG-x8n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="u5f-CO-vC9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fx4-KL-R8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232.80000000000001" y="88.605697151424295"/>
         </scene>
     </scenes>
 </document>
