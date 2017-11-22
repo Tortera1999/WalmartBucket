@@ -52,6 +52,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="G6n-Dx-FIS"/>
                     <connections>
+                        <outlet property="callTableView" destination="nxt-Ur-D6T" id="spZ-bM-knc"/>
                         <segue destination="tha-Li-RdE" kind="show" identifier="firstSegue" id="YC1-Ps-RNv"/>
                     </connections>
                 </viewController>

@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 5;
+        return names.count;
     }
     
     @available(iOS 2.0, *)
@@ -39,6 +39,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
 
+    @IBOutlet weak var callTableView: UITableView!
     
     
     override func viewDidLoad() {
@@ -56,12 +57,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         images.append(image4!);
         images.append(image5!);
         
-        names.append("A");
-        names.append("B");
-        names.append("C");
-        names.append("D");
-        names.append("E");
-        
         
         //Start of Api
         
@@ -76,11 +71,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     do {
                         let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
                         if let query = jsonResult["items"] as? NSArray{
-                            guard let dict = query[0] as? NSDictionary else {
-                                print("Could not convert to dictionary")
-                                return;
+                            for queryElement in query{
+                                guard let dict = queryElement as? NSDictionary else{
+                                    print("Couldnt retrieve dictionary")
+                                    return;
+                                }
+                                let name = dict["name"] as? String
+                                self.names.append(name!);
                             }
-                            print(dict["name"]!)
+                            print(self.names);
+                            
+                            self.callTableView.reloadData()
+                            
+//                            guard let dict = query[0] as? NSDictionary else {
+//                                print("Could not convert to dictionary")
+//                                return;
+//                            }
+//                            print(dict["name"]!)
                         }
                     }
                     catch {
