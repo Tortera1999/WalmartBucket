@@ -10,7 +10,7 @@ import UIKit
 
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+    var walmart = [WalmartItem]();
     var images = [UIImage]();
     var names = [String]();
     var selectedIndex = -1;
@@ -61,9 +61,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         names.append("C");
         names.append("D");
         names.append("E");
-        
-        
-        
         
         
         //Start of Api
