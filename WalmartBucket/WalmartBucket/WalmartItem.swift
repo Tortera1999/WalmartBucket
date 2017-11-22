@@ -38,8 +38,9 @@ class WalmartItem{
     init(name: String, price: Double, imageURL: String, addToCartURL: String, itemURL: String) {
         self.name = name
         self.price = price
-        self.imageURL = imageURL
         self.addToCartUrl = URL(string: addToCartURL)
         self.itemUrl = URL(string: itemURL)
+        self.imageURL = imageURL
+
     }
 }
