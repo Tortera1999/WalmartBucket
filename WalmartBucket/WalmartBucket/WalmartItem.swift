@@ -14,12 +14,9 @@ class WalmartItem{
     let addToCartUrl: URL?;
     let itemUrl: URL?;
     var image: UIImage?;
+    let description: String;
     var imageURL: String {
-        get {
-            print("image url received")
-            return self.imageURL
-        }
-        set {
+        didSet {
             let url = URL(string: imageURL);
             do {
                 let data1 = try Data(contentsOf: url!);
@@ -35,12 +32,13 @@ class WalmartItem{
     }
     
     
-    init(name: String, price: Double, imageURL: String, addToCartURL: String, itemURL: String) {
+    init(name: String, price: Double, description: String, imageURL: String, addToCartURL: String, itemURL: String) {
         self.name = name
         self.price = price
         self.addToCartUrl = URL(string: addToCartURL)
         self.itemUrl = URL(string: itemURL)
+        self.description = description
         self.imageURL = imageURL
-
+    
     }
 }

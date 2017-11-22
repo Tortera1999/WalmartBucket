@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return names.count;
+        return walmart.count;
     }
     
     @available(iOS 2.0, *)
@@ -25,9 +25,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ItemHolder", for: indexPath)
         
-        cell.imageView?.image = images[indexPath.row];
+//        cell.imageView?.image = walmart[indexPath.row].image!;
         cell.imageView?.contentMode = .scaleAspectFill;
-        cell.textLabel?.text = names[indexPath.row];
+        cell.textLabel?.text = walmart[indexPath.row].name;
         
         
         return cell;
@@ -76,8 +76,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                     print("Couldnt retrieve dictionary")
                                     return;
                                 }
-                                let name = dict["name"] as? String
-                                self.names.append(name!);
+                                let name = dict["name"] as! String
+                                let price = dict["salePrice"] as! Double
+                                let cartURL = dict["addToCartUrl"] as! String
+                                let itemURL = dict["productUrl"] as! String
+                                let description = dict["shortDescription"] as! String
+                                let imageURL = dict["largeImage"] as! String
+                                
+                                
+                                let item = WalmartItem(name: name, price: price, description: description, imageURL: imageURL, addToCartURL: cartURL, itemURL: itemURL)
+                                
+                                self.walmart.append(item)
+//                                let name = dict["name"] as? String
+//                                self.names.append(name!);
                             }
                             print(self.names);
                             
@@ -108,8 +119,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if segue.identifier == "firstSegue" {
             let secondViewController = segue.destination as! SecondViewController;
             
-            secondViewController.images = images[selectedIndex]
-            secondViewController.names = names[selectedIndex]
+//            secondViewController.images = images[selectedIndex]
+            secondViewController.images = #imageLiteral(resourceName: "Image2.jpg")
+
+            secondViewController.names = walmart[selectedIndex].name
         }
     }
     
