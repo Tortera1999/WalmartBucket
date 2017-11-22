@@ -120,9 +120,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let secondViewController = segue.destination as! SecondViewController;
             
 //            secondViewController.images = images[selectedIndex]
-            secondViewController.images = #imageLiteral(resourceName: "Image2.jpg")
-
-            secondViewController.names = walmart[selectedIndex].name
+            secondViewController.walmart = walmart[selectedIndex]
         }
     }
     

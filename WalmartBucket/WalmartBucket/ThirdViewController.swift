@@ -15,7 +15,7 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var PriceLabel: UILabel!
     
     var quantity11 = -1;
-    var price11 = -1;
+    var price11 = -1.2;
     
     override func viewDidLoad() {
         super.viewDidLoad()

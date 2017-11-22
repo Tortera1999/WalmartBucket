@@ -9,10 +9,10 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
-    var names = "";
+    var walmart: WalmartItem? = nil;
+    
     var images = UIImage();
-    var price = -1;
+    
     
     
     @IBOutlet weak var TextViewForPrice: UITextView!
@@ -28,7 +28,7 @@ class SecondViewController: UIViewController {
         quantityTextField.delegate = self;
         
         ImageViewOutlet.image = images;
-        Label.text = names;
+        Label.text = walmart?.name;
         
         // Do any additional setup after loading the view.
     }
@@ -44,9 +44,8 @@ class SecondViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "secondSegue" {
             let thirdViewController = segue.destination as! ThirdViewController;
-            
             thirdViewController.quantity11 = Int(quantityTextField.text!)!
-            thirdViewController.price11 = price
+            thirdViewController.price11 = (walmart?.price)!
         }
     }
     
@@ -58,10 +57,8 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func Calculatr(_ sender: Any) {
-        
-        price = Int(quantityTextField.text!)!
-        price = price * 60;
-        TextViewForPrice.text = "\(price)\n"
+        let pricing = Double(quantityTextField.text!)! * (walmart?.price)!
+        TextViewForPrice.text = "\(pricing)\n"
     }
     
 
