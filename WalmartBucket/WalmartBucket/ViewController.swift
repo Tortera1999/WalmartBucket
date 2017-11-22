@@ -62,6 +62,34 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         names.append("D");
         names.append("E");
         
+        
+        //Start of Api
+        
+        let url = URL(string: "http://api.walmartlabs.com/v1/search?query=ipod&format=json&apiKey=c6qjh9bqwyhuc5xgtu7fywre");
+        let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
+        
+            if error != nil {
+                print("There is an error");
+            }
+            else{
+                if data != nil {
+                    do {
+                        let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
+                        if let query = jsonResult["items"] as? NSArray{
+                            print(query[0]);
+                        }
+                    }
+                    catch {
+                        print("JSON cant be processed");
+                    }
+                }
+            }
+        }
+        
+        task.resume();
+        
+        //End of API
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
