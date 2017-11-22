@@ -11,6 +11,9 @@ import UIKit
 class WalmartItem{
     let name: String;
     let price: Double;
+    let addToCartUrl: URL?;
+    let itemUrl: URL?;
+    var image: UIImage?;
     var imageURL: String {
         get {
             print("image url received")
@@ -19,10 +22,10 @@ class WalmartItem{
         set {
             let url = URL(string: imageURL);
             do {
-            let data1 = try Data(contentsOf: url!);
-            let image = UIImage(data: data1)
-            self.image = image!
-
+                let data1 = try Data(contentsOf: url!);
+                let image = UIImage(data: data1)
+                self.image = image!
+                
             } catch {
                 print("error when retriving image, check url")
                 self.image = nil
@@ -30,15 +33,12 @@ class WalmartItem{
             
         }
     }
-    let addToCartUrl: URL?;
-    let itemUrl: URL?;
-    var image: UIImage?;
-    
     
     
     init(name: String, price: Double, imageURL: String, addToCartURL: String, itemURL: String) {
         self.name = name
         self.price = price
+        self.imageURL = imageURL
         self.addToCartUrl = URL(string: addToCartURL)
         self.itemUrl = URL(string: itemURL)
     }
