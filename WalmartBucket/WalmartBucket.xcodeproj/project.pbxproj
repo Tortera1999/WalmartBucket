@@ -14,6 +14,7 @@
 		A85952331FB6695600C1840E /* Image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522E1FB6695600C1840E /* Image5.jpg */; };
 		A85952351FB6768900C1840E /* Bucketitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85952341FB6768900C1840E /* Bucketitem.swift */; };
 		A8CE6EDD1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */; };
+		D53BA2B91FC62E8E00ED546E /* WalmartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BA2B81FC62E8E00ED546E /* WalmartItem.swift */; };
 		D586871D1FB3D14C006E2C1B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586871C1FB3D14C006E2C1B /* SecondViewController.swift */; };
 		D58D3A161F92BFB8006EF24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A151F92BFB8006EF24E /* AppDelegate.swift */; };
 		D58D3A181F92BFB8006EF24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A171F92BFB8006EF24E /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		A859522E1FB6695600C1840E /* Image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image5.jpg; path = ../Image5.jpg; sourceTree = "<group>"; };
 		A85952341FB6768900C1840E /* Bucketitem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bucketitem.swift; sourceTree = "<group>"; };
 		A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-10-12 at 6.59.27 PM.png"; sourceTree = "<group>"; };
+		D53BA2B81FC62E8E00ED546E /* WalmartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalmartItem.swift; sourceTree = "<group>"; };
 		D586871C1FB3D14C006E2C1B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		D58D3A121F92BFB8006EF24E /* WalmartBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58D3A151F92BFB8006EF24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				D58D3A151F92BFB8006EF24E /* AppDelegate.swift */,
 				A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */,
 				D58D3A171F92BFB8006EF24E /* ViewController.swift */,
+				D53BA2B81FC62E8E00ED546E /* WalmartItem.swift */,
 				D5FE00E61FB584C40015E17B /* ThirdViewController.swift */,
 				D58D3A191F92BFB8006EF24E /* Main.storyboard */,
 				D58D3A1C1F92BFB8006EF24E /* Assets.xcassets */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D586871D1FB3D14C006E2C1B /* SecondViewController.swift in Sources */,
+				D53BA2B91FC62E8E00ED546E /* WalmartItem.swift in Sources */,
 				A85952351FB6768900C1840E /* Bucketitem.swift in Sources */,
 				D58D3A181F92BFB8006EF24E /* ViewController.swift in Sources */,
 				D5FE00E71FB584C40015E17B /* ThirdViewController.swift in Sources */,
