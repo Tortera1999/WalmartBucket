@@ -63,6 +63,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         names.append("E");
         
         
+        
+        
+        
         //Start of Api
         
         let url = URL(string: "http://api.walmartlabs.com/v1/search?query=ipod&format=json&apiKey=c6qjh9bqwyhuc5xgtu7fywre");
@@ -76,7 +79,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     do {
                         let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
                         if let query = jsonResult["items"] as? NSArray{
-                            print(query[0]);
+                            guard let dict = query[0] as? NSDictionary else {
+                                print("Could not convert to dictionary")
+                                return;
+                            }
+                            print(dict["name"]!)
                         }
                     }
                     catch {
