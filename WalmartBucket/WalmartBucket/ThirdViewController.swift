@@ -13,19 +13,22 @@ class ThirdViewController: UIViewController {
     
     @IBOutlet weak var QuantityLabel: UILabel!
     @IBOutlet weak var PriceLabel: UILabel!
+    @IBOutlet weak var ProductName: UITextView!
     
     var quantity11 = -1;
     var price11 = -1.2;
+    var productname = "";
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        QuantityLabel.text = "\(quantity11)"
+        PriceLabel.text = "\(price11)"
+        ProductName.text = "\(productname)"
 
         // Do any additional setup after loading the view.
     }
     @IBAction func View(_ sender: Any) {
-        QuantityLabel.text = "\(quantity11)"
-        PriceLabel.text = "\(price11)"
-    }
+            }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
