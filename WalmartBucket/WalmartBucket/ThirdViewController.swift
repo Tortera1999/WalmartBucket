@@ -8,9 +8,14 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {    
+class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    
     @IBOutlet weak var checkOutTableView: UITableView!
 
+    
+    var quantity11 = -1;
+    var price11 = -1.2;
     var product : WalmartItem!;
     
     var checkOutItems = [checkOutItem]();
