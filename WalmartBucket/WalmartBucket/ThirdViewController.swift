@@ -28,6 +28,8 @@ class ThirdViewController: UIViewController {
         priceArray.append(price11);
         productnameArray.append(productname);
         
+        checkOutItem(walmartItem: <#T##WalmartItem#>)
+        
         
         
         QuantityLabel.text = "\(quantity11)"

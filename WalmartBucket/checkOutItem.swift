@@ -11,10 +11,12 @@ import Foundation
 class checkOutItem {
     let walmartItem: WalmartItem
     let price: Double
-    let quantity: String
+    let quantity: Int
     
-    init(<#parameters#>) {
-        <#statements#>
+    init(walmartItem: WalmartItem, price: Double, quantity: Int) {
+        self.walmartItem = walmartItem;
+        self.price = price;
+        self.quantity = quantity;
     }
     
     
