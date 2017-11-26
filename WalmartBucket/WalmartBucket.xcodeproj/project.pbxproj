@@ -23,6 +23,7 @@
 		D58D3A201F92BFB8006EF24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58D3A1E1F92BFB8006EF24E /* LaunchScreen.storyboard */; };
 		D58D3A2B1F92BFB8006EF24E /* WalmartBucketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A2A1F92BFB8006EF24E /* WalmartBucketTests.swift */; };
 		D58D3A361F92BFB8006EF24E /* WalmartBucketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A351F92BFB8006EF24E /* WalmartBucketUITests.swift */; };
+		D5A88A9F1FCB63EB00BC571C /* Search ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A88A9E1FCB63EB00BC571C /* Search ViewController.swift */; };
 		D5FE00E71FB584C40015E17B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE00E61FB584C40015E17B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		D58D3A311F92BFB8006EF24E /* WalmartBucketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartBucketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58D3A351F92BFB8006EF24E /* WalmartBucketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartBucketUITests.swift; sourceTree = "<group>"; };
 		D58D3A371F92BFB8006EF24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A88A9E1FCB63EB00BC571C /* Search ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Search ViewController.swift"; sourceTree = "<group>"; };
 		D5FE00E61FB584C40015E17B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 				D53BA2B81FC62E8E00ED546E /* WalmartItem.swift */,
 				D5FE00E61FB584C40015E17B /* ThirdViewController.swift */,
 				D58D3A191F92BFB8006EF24E /* Main.storyboard */,
+				D5A88A9E1FCB63EB00BC571C /* Search ViewController.swift */,
 				D58D3A1C1F92BFB8006EF24E /* Assets.xcassets */,
 				D58D3A1E1F92BFB8006EF24E /* LaunchScreen.storyboard */,
 				D58D3A211F92BFB8006EF24E /* Info.plist */,
@@ -300,6 +303,7 @@
 				A85952351FB6768900C1840E /* Bucketitem.swift in Sources */,
 				D58D3A181F92BFB8006EF24E /* ViewController.swift in Sources */,
 				D5FE00E71FB584C40015E17B /* ThirdViewController.swift in Sources */,
+				D5A88A9F1FCB63EB00BC571C /* Search ViewController.swift in Sources */,
 				D58D3A161F92BFB8006EF24E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

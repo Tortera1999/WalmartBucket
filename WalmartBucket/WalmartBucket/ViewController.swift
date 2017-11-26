@@ -14,6 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var images = [UIImage]();
     var names = [String]();
     var selectedIndex = -1;
+    var searchItems = "";
+    
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
@@ -60,7 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         //Start of Api
         
-        let url = URL(string: "http://api.walmartlabs.com/v1/search?query=ipod&format=json&apiKey=c6qjh9bqwyhuc5xgtu7fywre");
+        let url = URL(string: "http://api.walmartlabs.com/v1/search?query=" + searchItems + "&format=json&apiKey=c6qjh9bqwyhuc5xgtu7fywre");
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
         
             if error != nil {
