@@ -10,7 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
     var walmart: WalmartItem? = nil;
-    
+    var pricing: Double = 0.0;
     var images = UIImage();
     
     
@@ -42,7 +42,8 @@ class SecondViewController: UIViewController {
         if segue.identifier == "secondSegue" {
             let thirdViewController = segue.destination as! ThirdViewController;
             thirdViewController.quantity11 = Int(quantityTextField.text!)!
-            thirdViewController.price11 = (walmart?.price)!
+            thirdViewController.price11 = (pricing)
+            thirdViewController.productname = Label.text!
         }
     }
     
@@ -54,7 +55,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func Calculatr(_ sender: Any) {
-        let pricing = Double(quantityTextField.text!)! * (walmart?.price)!
+        pricing = Double(quantityTextField.text!)! * (walmart?.price)!
         TextViewForPrice.text = "\(pricing)\n"
     }
     
