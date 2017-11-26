@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ItemHolder", for: indexPath)
         
-//        cell.imageView?.image = walmart[indexPath.row].image!;
+        cell.imageView?.image = walmart[indexPath.row].image!;
         cell.imageView?.contentMode = .scaleAspectFill;
         cell.textLabel?.text = walmart[indexPath.row].name;
         
@@ -97,7 +97,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //                                let name = dict["name"] as? String
 //                                self.names.append(name!);
                             }
-                            print(self.names);
+                            print(self.walmart);
                             
                             self.callTableView.reloadData()
                             

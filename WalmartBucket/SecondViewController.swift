@@ -27,7 +27,7 @@ class SecondViewController: UIViewController {
         
         quantityTextField.delegate = self;
         
-        ImageViewOutlet.image = images;
+        ImageViewOutlet.image = walmart?.image!;
         Label.text = walmart?.name;
         
         // Do any additional setup after loading the view.

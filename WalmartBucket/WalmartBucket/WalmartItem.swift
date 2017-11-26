@@ -15,21 +15,7 @@ class WalmartItem{
     let itemUrl: URL?;
     var image: UIImage?;
     let description: String;
-    var imageURL: String {
-        didSet {
-            let url = URL(string: imageURL);
-            do {
-                let data1 = try Data(contentsOf: url!);
-                let image = UIImage(data: data1)
-                self.image = image!
-                
-            } catch {
-                print("error when retriving image, check url")
-                self.image = nil
-            }
-            
-        }
-    }
+    let imageURL: String
     
     
     init(name: String, price: Double, description: String, imageURL: String, addToCartURL: String, itemURL: String) {
@@ -39,6 +25,20 @@ class WalmartItem{
         self.itemUrl = URL(string: itemURL)
         self.description = description
         self.imageURL = imageURL
-    
+        getImage()
     }
+    
+    private func getImage() {
+        let url = URL(string: imageURL);
+        do {
+            let data1 = try Data(contentsOf: url!);
+            let image = UIImage(data: data1)
+            self.image = image!
+            
+        } catch {
+            print("error when retriving image, check url")
+            self.image = nil
+        }
+    }
+    
 }
