@@ -8,28 +8,16 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
-    
+class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {    
     @IBOutlet weak var checkOutTableView: UITableView!
 
-    
-    var quantity11 = -1;
-    var price11 = -1.2;
     var product : WalmartItem!;
     
     var checkOutItems = [checkOutItem]();
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         checkOutItems.removeAll();
-    
-        
-        //QuantityLabel.text = "\(quantity11)"
-        //PriceLabel.text = "\(price11)"
-        //ProductName.text = "\(productname)"
-
         // Do any additional setup after loading the view.
     }
     

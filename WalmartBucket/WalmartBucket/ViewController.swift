@@ -11,8 +11,6 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var walmart = [WalmartItem]();
-    var images = [UIImage]();
-    var names = [String]();
     var selectedIndex = -1;
     var searchItems = "";
     
@@ -46,19 +44,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let image1 = UIImage(named: "Image1.jpg");
-        let image2 = UIImage(named: "Image2.jpg");
-        let image3 = UIImage(named: "Image3.jpg");
-        let image4 = UIImage(named: "Image4.jpg");
-        let image5 = UIImage(named: "Image5.jpg");
-        
-        images.append(image1!);
-        images.append(image2!);
-        images.append(image3!);
-        images.append(image4!);
-        images.append(image5!);
-        
         
         //Start of Api
         

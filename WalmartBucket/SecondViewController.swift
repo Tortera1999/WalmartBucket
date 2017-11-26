@@ -11,7 +11,6 @@ import UIKit
 class SecondViewController: UIViewController {
     var walmart: WalmartItem? = nil;
     var pricing: Double = 0.0;
-    var images = UIImage();
     
     
     
