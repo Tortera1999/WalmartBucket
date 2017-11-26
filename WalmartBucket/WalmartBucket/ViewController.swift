@@ -79,8 +79,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                     return;
                                 }
                                 let name = dict["name"] as! String
-                                var price = dict["salePrice"] as! Double
-                                
+                                var price = dict["salePrice"] as? Double
+                                price = (price == nil) ? dict["msrp"] as! Double : price
                                 let cartURL = dict["addToCartUrl"] as! String
                                 let itemURL = dict["productUrl"] as! String
                                 var description = dict["shortDescription"] as? String
@@ -91,7 +91,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                 let imageURL = dict["largeImage"] as! String
                                 
                                 
-                                let item = WalmartItem(name: name, price: price, description: description!, imageURL: imageURL, addToCartURL: cartURL, itemURL: itemURL)
+                                let item = WalmartItem(name: name, price: price!, description: description!, imageURL: imageURL, addToCartURL: cartURL, itemURL: itemURL)
                                 
                                 self.walmart.append(item)
 //                                let name = dict["name"] as? String
