@@ -62,7 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         //Start of Api
         
-        let url = URL(string: "http://api.walmartlabs.com/v1/search?query=" + searchItems + "&format=json&apiKey=c6qjh9bqwyhuc5xgtu7fywre");
+        let url = URL(string: "http://api.walmartlabs.com/v1/search?query=\(searchItems)&format=json&apiKey=c6qjh9bqwyhuc5xgtu7fywre");
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
         
             if error != nil {
@@ -79,14 +79,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                     return;
                                 }
                                 let name = dict["name"] as! String
-                                let price = dict["salePrice"] as! Double
+                                var price = dict["salePrice"] as! Double
+                                
                                 let cartURL = dict["addToCartUrl"] as! String
                                 let itemURL = dict["productUrl"] as! String
-                                let description = dict["shortDescription"] as! String
+                                var description = dict["shortDescription"] as? String
+                                
+                                description = (description == nil) ? "" : description
+                                
+                                
                                 let imageURL = dict["largeImage"] as! String
                                 
                                 
-                                let item = WalmartItem(name: name, price: price, description: description, imageURL: imageURL, addToCartURL: cartURL, itemURL: itemURL)
+                                let item = WalmartItem(name: name, price: price, description: description!, imageURL: imageURL, addToCartURL: cartURL, itemURL: itemURL)
                                 
                                 self.walmart.append(item)
 //                                let name = dict["name"] as? String

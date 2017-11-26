@@ -338,13 +338,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
-                                    <action selector="Submit:" destination="uqU-Ku-LB6" eventType="touchUpInside" id="qxk-di-r5t"/>
-                                    <segue destination="Q6N-Yg-PGF" kind="show" identifier="searchSegue" id="tz4-BY-aZm"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="searchSegue" id="w3M-TJ-nsI"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Msi-ok-c7p"/>
                     <connections>
                         <outlet property="SearchItems" destination="WBA-sl-cNu" id="vRD-CR-jbT"/>
                     </connections>
@@ -364,7 +364,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="u5f-CO-vC9"/>
+                        <segue destination="uqU-Ku-LB6" kind="relationship" relationship="rootViewController" id="6Rc-wY-2Xk"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fx4-KL-R8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>

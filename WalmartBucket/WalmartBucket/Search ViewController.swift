@@ -8,6 +8,7 @@
 
 import UIKit
 
+var searchItem = ""
 class Search_ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var SearchItems: UITextField!
@@ -20,21 +21,26 @@ class Search_ViewController: UIViewController, UITextFieldDelegate {
         
         // Do any additional setup after loading the view.
     }
-    @IBAction func Submit(_ sender: Any) {
-        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "searchSegue" {
-                let viewController = segue.destination as! ViewController;
-                viewController.searchItems = String(describing: SearchItems)
-            }
-        }
-        
-    }
+//    @IBAction func Submit(_ sender: Any) {
+//        
+//        
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+            if segue.identifier == "searchSegue" {
+                let viewController = segue.destination as! ViewController;
+                viewController.searchItems = SearchItems.text!
+//                searchItem = SearchItems.text!
+            }
+    }
 
     /*
     // MARK: - Navigation
