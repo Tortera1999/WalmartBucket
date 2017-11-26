@@ -17,26 +17,25 @@ class ThirdViewController: UIViewController {
     
     var quantity11 = -1;
     var price11 = -1.2;
-    var productname = "";
-    var quantityArray = [Int]();
-    var priceArray = [Double]();
-    var productnameArray = [String]();
+    var product : WalmartItem!;
+    
+    var checkOutItems = [checkOutItem]();
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        quantityArray.append(quantity11);
-        priceArray.append(price11);
-        productnameArray.append(productname);
         
-        checkOutItem(walmartItem: <#T##WalmartItem#>)
+        checkOutItems.removeAll();
+    
         
-        
-        
-        QuantityLabel.text = "\(quantity11)"
-        PriceLabel.text = "\(price11)"
-        ProductName.text = "\(productname)"
+        //QuantityLabel.text = "\(quantity11)"
+        //PriceLabel.text = "\(price11)"
+        //ProductName.text = "\(productname)"
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        checkOutItems.append(checkOutItem(walmartItem: product, price: price11, quantity: quantity11))
     }
     @IBAction func View(_ sender: Any) {
             }
