@@ -1,0 +1,6 @@
+framework module Pods_WalmartBucket {
+  umbrella header "Pods-WalmartBucket-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_WalmartBucketTests {
+  umbrella header "Pods-WalmartBucketTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
