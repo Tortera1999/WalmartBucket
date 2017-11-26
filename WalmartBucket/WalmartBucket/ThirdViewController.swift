@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
-    @IBOutlet weak var QuantityLabel: UILabel!
-    @IBOutlet weak var PriceLabel: UILabel!
-    @IBOutlet weak var ProductName: UITextView!
+    @IBOutlet weak var checkOutTableView: UITableView!
+
     
     var quantity11 = -1;
     var price11 = -1.2;
@@ -46,6 +45,23 @@ class ThirdViewController: UIViewController {
     }
     
 
+    // MARK: - Tableview methods
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return checkOutItems.count
+    }
+    
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "checkOutCell", for: indexPath) as! CheckoutItemCell
+        return cell
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -43,7 +43,8 @@ class SecondViewController: UIViewController {
             let thirdViewController = segue.destination as! ThirdViewController;
             thirdViewController.quantity11 = Int(quantityTextField.text!)!
             thirdViewController.price11 = (pricing)
-            thirdViewController.productname = Label.text!
+            thirdViewController.product = walmart
+//            thirdViewController.productname = Label.text!
         }
     }
     
