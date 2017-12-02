@@ -52,6 +52,10 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "checkOutCell", for: indexPath) as! CheckoutItemCell
+        cell.textLabel?.text = String(checkOutItems[indexPath.row].price);
+        cell.textLabel?.text = String(checkOutItems[indexPath.row].quantity);
+        cell.textLabel?.text = String(checkOutItems[indexPath.row].walmartItem.name);
+    
         return cell
     }
     
