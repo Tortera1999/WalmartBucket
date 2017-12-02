@@ -23,7 +23,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        checkOutItems.removeAll();
+//        checkOutItems.removeAll();
         // Do any additional setup after loading the view.
     }
     
