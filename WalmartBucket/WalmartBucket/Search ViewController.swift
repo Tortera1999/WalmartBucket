@@ -12,12 +12,15 @@ var searchItem = ""
 class Search_ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var SearchItems: UITextField!
-    
+    var search : String = "";
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         SearchItems.delegate = self;
+
+        search = SearchItems.text!;
+        search = search.components(separatedBy: .whitespaces).joined()
         
         // Do any additional setup after loading the view.
     }
@@ -37,7 +40,8 @@ class Search_ViewController: UIViewController, UITextFieldDelegate {
     
             if segue.identifier == "searchSegue" {
                 let viewController = segue.destination as! ViewController;
-                viewController.searchItems = SearchItems.text!
+                viewController.searchItems = search;
+                print(search)
 //                searchItem = SearchItems.text!
             }
     }
