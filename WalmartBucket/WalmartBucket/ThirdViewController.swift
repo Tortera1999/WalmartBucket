@@ -8,6 +8,8 @@
 
 import UIKit
 
+var checkOutItems = [checkOutItem]();
+
 class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
@@ -18,7 +20,6 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     var price11 = -1.2;
     var product : WalmartItem!;
     
-    var checkOutItems = [checkOutItem]();
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +43,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return checkOutItems.count;
     }
     
     
