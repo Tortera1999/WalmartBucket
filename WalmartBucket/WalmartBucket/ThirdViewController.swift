@@ -62,6 +62,13 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
+    
+   
+    @IBAction func toSearchView(_ sender: UIBarButtonItem) {
+        self.performSegue(withIdentifier: "toFirst", sender: self)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

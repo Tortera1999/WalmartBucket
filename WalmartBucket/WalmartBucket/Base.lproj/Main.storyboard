@@ -178,7 +178,7 @@
                         <outlet property="Label" destination="OXV-fa-vN6" id="Xsd-4t-xPG"/>
                         <outlet property="TextViewForPrice" destination="dvc-iv-oqG" id="I4z-5Z-P2Z"/>
                         <outlet property="quantityTextField" destination="mSc-zF-3cT" id="zEB-YJ-0Pu"/>
-                        <segue destination="OHf-Lu-3T2" kind="show" identifier="secondSegue" id="4Mg-MC-SHb"/>
+                        <segue destination="OHf-Lu-3T2" kind="show" identifier="secondSegue" id="RrW-bz-Saw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1sn-T7-U1O" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -286,13 +286,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="if1-oE-5mH">
+                        <barButtonItem key="rightBarButtonItem" title="Search" id="tR1-uK-yBp">
+                            <connections>
+                                <action selector="toSearchView:" destination="OHf-Lu-3T2" id="bC4-5j-IEs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="checkOutTableView" destination="TwP-Ao-7A3" id="88V-aX-NyB"/>
+                        <segue destination="GfS-JT-uKl" kind="unwind" identifier="toFirst" unwindAction="unWindFromThirdViewWithSegue:" id="0dL-Nw-fEV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CqF-wA-ptD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="GfS-JT-uKl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2728.8000000000002" y="78.710644677661179"/>
+            <point key="canvasLocation" x="2551" y="97"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="CoY-tg-zg2">
