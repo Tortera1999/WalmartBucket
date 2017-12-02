@@ -28,6 +28,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewWillAppear(_ animated: Bool) {
         checkOutItems.append(checkOutItem(walmartItem: product, price: price11, quantity: quantity11))
+        
     }
     @IBAction func View(_ sender: Any) {
             }
@@ -55,6 +56,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.nameLabel?.text = checkOutItems[indexPath.row].walmartItem.name;
         cell.priceLabel?.text = "\(checkOutItems[indexPath.row].price)";
         cell.quantityLabel.text = "\(checkOutItems[indexPath.row].quantity)";
+        print(checkOutItems[indexPath.row].price)
     
         return cell
     }
