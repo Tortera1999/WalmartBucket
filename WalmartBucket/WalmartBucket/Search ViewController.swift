@@ -9,7 +9,7 @@
 import UIKit
 
 var searchItem = ""
-class Search_ViewController: UIViewController, UITextFieldDelegate {
+class Search_ViewController: UIViewController {
 
     @IBOutlet weak var SearchItems: UITextField!
     
@@ -31,8 +31,6 @@ class Search_ViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
@@ -60,5 +58,17 @@ class Search_ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func unWindFromThirdView(segue: UIStoryboardSegue) {
         
     }
+    
+
+    
+}
+
+
+extension Search_ViewController : UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder();
+        return true;
+    }
+    
     
 }

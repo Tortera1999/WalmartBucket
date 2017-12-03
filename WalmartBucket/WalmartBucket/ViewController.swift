@@ -48,6 +48,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //Start of Api
         
         let url = URL(string: "http://api.walmartlabs.com/v1/search?query=\(searchItems)&format=json&apiKey=c6qjh9bqwyhuc5xgtu7fywre");
+        
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
         
             if error != nil {
@@ -68,6 +69,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                 price = (price == nil) ? dict["msrp"] as! Double : price
                                 let cartURL = dict["addToCartUrl"] as! String
                                 let itemURL = dict["productUrl"] as! String
+                                
                                 var description = dict["shortDescription"] as? String
                                 
                                 description = (description == nil) ? "" : description

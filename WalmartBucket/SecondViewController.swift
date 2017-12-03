@@ -58,6 +58,10 @@ class SecondViewController: UIViewController {
         pricing = Double(quantityTextField.text!)! * (walmart?.price)!
         TextViewForPrice.text = "\(pricing)\n"
     }
+    @IBAction func OpenUrl(_ sender: Any) {
+        let url = NSURL(string: String(ThirdViewController.neededUrl));
+        UIApplication.shared.open(url! as URL, options: [:], completionHandler: nil)
+    }
     
 
 }

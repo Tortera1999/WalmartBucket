@@ -19,6 +19,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
     var quantity11 = -1;
     var price11 = -1.2;
     var product : WalmartItem!;
+    static var neededUrl : String = "";
     
     
     override func viewDidLoad() {
@@ -58,7 +59,8 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.priceLabel?.text = "\(checkOutItems[indexPath.row].price)";
         cell.quantityLabel.text = "\(checkOutItems[indexPath.row].quantity)";
         print(checkOutItems[indexPath.row].price)
-    
+        
+        ThirdViewController.neededUrl = String(describing: checkOutItems[indexPath.row].walmartItem.itemUrl);
         return cell
     }
     
