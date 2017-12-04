@@ -29,11 +29,11 @@ class SecondViewController: UIViewController {
         
         ImageViewOutlet.image = walmart?.image!;
         self.title = walmart?.name
-        let labelSize = Label.numberOfCharactersThatFitLabel()
-        var nextIndex = walmart?.description.startIndex
-        
-        var stringIndex = 0
+//        let labelSize = Label.numberOfCharactersThatFitLabel()
+//        var nextIndex = walmart?.description.startIndex
 //        
+//        var stringIndex = 0
+////        
 //        while (stringIndex != labelSize) {
 //            nextIndex = walmart?.description.index(nextIndex!, offsetBy: 1)
 //            stringIndex = (walmart?.description.indexDistance(of: (walmart?.description[nextIndex!])!))!

@@ -72,6 +72,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                 
                                 var description = dict["shortDescription"] as? String
                                 
+                                description = description?.replacingOccurrences(of: "&lt;p&gt;", with: "", options: .regularExpression, range: nil)
+
+                                
                                 description = (description == nil) ? "" : description
                                 
                                 
