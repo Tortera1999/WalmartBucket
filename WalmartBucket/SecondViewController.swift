@@ -71,6 +71,10 @@ class SecondViewController: UIViewController {
         pricing = Double(quantityTextField.text!)! * (walmart?.price)!
         TextViewForPrice.text = "\(pricing)\n"
     }
+    
+//    @IBAction func Calculater(_ sender: Any) {
+//        
+//    }
     @IBAction func OpenUrl(_ sender: Any) {
         let url = walmart?.itemUrl!
         let svc = SFSafariViewController(url: url!)
