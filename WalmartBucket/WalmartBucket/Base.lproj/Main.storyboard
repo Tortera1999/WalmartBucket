@@ -228,7 +228,9 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TwP-Ao-7A3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.94482272860000005" green="0.96313351390000002" blue="0.77627587320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.94482272860000005" green="0.96313351390000002" blue="0.77627587320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.94482272860000005" green="0.96313351390000002" blue="0.77627587320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="checkOutCell" id="BTa-GF-YIZ" customClass="CheckoutItemCell" customModule="WalmartBucket" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -337,8 +339,12 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="searchSegue" id="w3M-TJ-nsI"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WalmartLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ng8-qM-l9V">
+                                <rect key="frame" x="41" y="91" width="305" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.94482272860000005" green="0.96313351390000002" blue="0.77627587320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WBA-sl-cNu" firstAttribute="leading" secondItem="6TS-6E-IJo" secondAttribute="leadingMargin" constant="2" id="1e7-jP-QBO"/>
                             <constraint firstItem="WBA-sl-cNu" firstAttribute="centerY" secondItem="6TS-6E-IJo" secondAttribute="centerY" id="2GY-sF-Wmj"/>
@@ -375,4 +381,7 @@
             <point key="canvasLocation" x="-502" y="89"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="WalmartLogo.png" width="1200" height="675"/>
+    </resources>
 </document>
