@@ -16,15 +16,16 @@ class WalmartItem{
     var image: UIImage?;
     let description: String;
     let imageURL: String
+    let walmartId: Int
     
-    
-    init(name: String, price: Double, description: String, imageURL: String, addToCartURL: String, itemURL: String) {
+    init(name: String, price: Double, description: String, imageURL: String, addToCartURL: String, itemURL: String, walmartId: Int) {
         self.name = name
         self.price = price
         self.addToCartUrl = URL(string: addToCartURL)
         self.itemUrl = URL(string: itemURL)
         self.description = description
         self.imageURL = imageURL
+        self.walmartId = walmartId
         getImage()
     }
     

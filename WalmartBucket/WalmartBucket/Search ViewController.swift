@@ -22,15 +22,17 @@ class Search_ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-//    @IBAction func Submit(_ sender: Any) {
-//        
-//        
-//    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        self.SearchItems.text = ""
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class SecondViewController: UIViewController {
     var walmart: WalmartItem? = nil;
@@ -33,7 +34,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func Buy(_ sender: Any) {
-        
+        self.Calculater(sender)
         self.performSegue(withIdentifier: "secondSegue", sender: self)
     }
     
@@ -54,13 +55,14 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func Calculatr(_ sender: Any) {
+    @IBAction func Calculater(_ sender: Any) {
         pricing = Double(quantityTextField.text!)! * (walmart?.price)!
         TextViewForPrice.text = "\(pricing)\n"
     }
     @IBAction func OpenUrl(_ sender: Any) {
-        let url = NSURL(string: String(ThirdViewController.neededUrl));
-        UIApplication.shared.open(url! as URL, options: [:], completionHandler: nil)
+        let url = walmart?.itemUrl!
+        let svc = SFSafariViewController(url: url!)
+        self.present(svc, animated: true, completion: nil)
     }
     
 
@@ -69,7 +71,7 @@ class SecondViewController: UIViewController {
 extension SecondViewController : UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder();
-        self.Calculatr(self)
+        self.Calculater(self)
         return true;
     }
 }

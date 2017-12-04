@@ -77,8 +77,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                 
                                 let imageURL = dict["largeImage"] as! String
                                 
-                                
-                                let item = WalmartItem(name: name, price: price!, description: description!, imageURL: imageURL, addToCartURL: cartURL, itemURL: itemURL)
+                                let walmartId = dict["itemId"] as! Int
+                                let item = WalmartItem(name: name, price: price!, description: description!, imageURL: imageURL, addToCartURL: cartURL, itemURL: itemURL, walmartId: walmartId)
                                 
                                 self.walmart.append(item)
 //                                let name = dict["name"] as? String
@@ -86,7 +86,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                             }
                             print(self.walmart);
                             
-                            self.callTableView.reloadData()
+                            DispatchQueue.main.async {
+                                self.callTableView.reloadData()
+                            }
                             
 //                            guard let dict = query[0] as? NSDictionary else {
 //                                print("Could not convert to dictionary")
