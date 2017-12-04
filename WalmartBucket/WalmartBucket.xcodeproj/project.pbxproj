@@ -28,6 +28,7 @@
 		D58D3A361F92BFB8006EF24E /* WalmartBucketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D3A351F92BFB8006EF24E /* WalmartBucketUITests.swift */; };
 		D5A88A9F1FCB63EB00BC571C /* Search ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A88A9E1FCB63EB00BC571C /* Search ViewController.swift */; };
 		D5A88AA31FCB7EA200BC571C /* checkOutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A88AA21FCB7EA200BC571C /* checkOutItem.swift */; };
+		D5F0A06F1FD5E3A0006C64BB /* iPhone in Resources */ = {isa = PBXBuildFile; fileRef = D5F0A06E1FD5E3A0006C64BB /* iPhone */; };
 		D5FE00E71FB584C40015E17B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE00E61FB584C40015E17B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		D58D3A371F92BFB8006EF24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A88A9E1FCB63EB00BC571C /* Search ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Search ViewController.swift"; sourceTree = "<group>"; };
 		D5A88AA21FCB7EA200BC571C /* checkOutItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = checkOutItem.swift; path = ../checkOutItem.swift; sourceTree = "<group>"; };
+		D5F0A06E1FD5E3A0006C64BB /* iPhone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iPhone; path = ../../../../Downloads/iPhone; sourceTree = "<group>"; };
 		D5FE00E61FB584C40015E17B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 				D58D3A1C1F92BFB8006EF24E /* Assets.xcassets */,
 				D58D3A1E1F92BFB8006EF24E /* LaunchScreen.storyboard */,
 				D58D3A211F92BFB8006EF24E /* Info.plist */,
+				D5F0A06E1FD5E3A0006C64BB /* iPhone */,
 			);
 			path = WalmartBucket;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				A8CE6EDD1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png in Resources */,
 				A85952311FB6695600C1840E /* Image3.jpg in Resources */,
 				A85952301FB6695600C1840E /* Image2.jpg in Resources */,
+				D5F0A06F1FD5E3A0006C64BB /* iPhone in Resources */,
 				D58D3A201F92BFB8006EF24E /* LaunchScreen.storyboard in Resources */,
 				D58D3A1D1F92BFB8006EF24E /* Assets.xcassets in Resources */,
 				D58D3A1B1F92BFB8006EF24E /* Main.storyboard in Resources */,
