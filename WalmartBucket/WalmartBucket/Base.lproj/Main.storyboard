@@ -54,7 +54,7 @@
                     <navigationItem key="navigationItem" id="G6n-Dx-FIS"/>
                     <connections>
                         <outlet property="callTableView" destination="nxt-Ur-D6T" id="spZ-bM-knc"/>
-                        <segue destination="tha-Li-RdE" kind="show" identifier="firstSegue" id="YC1-Ps-RNv"/>
+                        <segue destination="tha-Li-RdE" kind="show" identifier="firstSegue" id="81Q-zb-Ueb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -181,6 +181,7 @@
                             <constraint firstItem="dvc-iv-oqG" firstAttribute="top" secondItem="mSc-zF-3cT" secondAttribute="bottom" constant="39" id="ytU-al-IQz"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zVq-yj-NZ0"/>
                     <connections>
                         <outlet property="ImageViewOutlet" destination="sx4-y4-A3q" id="tUg-7T-xZg"/>
                         <outlet property="Label" destination="OXV-fa-vN6" id="Xsd-4t-xPG"/>
@@ -191,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1sn-T7-U1O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1864.8" y="88.605697151424295"/>
+            <point key="canvasLocation" x="2145" y="107"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AjY-37-aqE">
@@ -309,9 +310,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CqF-wA-ptD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="GfS-JT-uKl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2551" y="97"/>
+            <point key="canvasLocation" x="3488.8000000000002" y="96.7016491754123"/>
         </scene>
-        <!--Search View Controller-->
+        <!--Walmart Bucket-->
         <scene sceneID="CoY-tg-zg2">
             <objects>
                 <viewController id="uqU-Ku-LB6" customClass="Search_ViewController" customModule="WalmartBucket" customModuleProvider="target" sceneMemberID="viewController">
@@ -346,7 +347,7 @@
                             <constraint firstItem="WBA-sl-cNu" firstAttribute="trailing" secondItem="6TS-6E-IJo" secondAttribute="trailingMargin" constant="2" id="vYM-Am-Mhp"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Msi-ok-c7p"/>
+                    <navigationItem key="navigationItem" title="Walmart Bucket" id="Msi-ok-c7p"/>
                     <connections>
                         <outlet property="SearchItems" destination="WBA-sl-cNu" id="vRD-CR-jbT"/>
                     </connections>

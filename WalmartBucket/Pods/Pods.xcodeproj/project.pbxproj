@@ -116,13 +116,13 @@
 		033A5342E8C8A0B333566C78AA441C14 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		03908E7B9DC77F8BF6E7CB24C04E680C /* Pods-WalmartBucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalmartBucket.debug.xcconfig"; sourceTree = "<group>"; };
 		073A592AF6320487E78F9F1DC6420434 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
-		0B584E048CF6FBBDA91C591020009E67 /* ISO8601.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ISO8601.modulemap; sourceTree = "<group>"; };
+		0B584E048CF6FBBDA91C591020009E67 /* ISO8601.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ISO8601.modulemap; sourceTree = "<group>"; };
 		0FC182A03F6F42B938E1DC7C6C5CADCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B2B8BAFC2195FC430C89856BBC76F3 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		11FD540C23535FFF9D449098F8641C11 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		12234626DC28BFBB18BC8ACC6B4A4355 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A9374C39A6EFA90AD3F2E64799ECC5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		15CABCD6F28243023B71B86BF107B463 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		15CABCD6F28243023B71B86BF107B463 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		1A83924389B9294A7D03FF24DAFED1EF /* Pods-WalmartBucketTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalmartBucketTests-resources.sh"; sourceTree = "<group>"; };
 		1BD748C825585FA4BF2131C20F5A8D82 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		1C0FCD17274C5C4DA46DF49E6F0C3D50 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
@@ -141,9 +141,9 @@
 		3CCEF4031CF5B78E4A6808D193E24C44 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		3E504ACB340AE6AE8ABCBEDE38CF800E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		3E5A5287DFFCC5C98553E088BCEE69AD /* Pods-WalmartBucket-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalmartBucket-acknowledgements.plist"; sourceTree = "<group>"; };
-		488C6052835691688E9F93F31BFBDB92 /* Pods-WalmartBucketUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WalmartBucketUITests.modulemap"; sourceTree = "<group>"; };
+		488C6052835691688E9F93F31BFBDB92 /* Pods-WalmartBucketUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WalmartBucketUITests.modulemap"; sourceTree = "<group>"; };
 		48DFEF3C776FDFAAFC08E6D5692DBB49 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		498E52F7B03E64EC046932DFF3C6B05A /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498E52F7B03E64EC046932DFF3C6B05A /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DFD711D4D6DECBB3C4B035829B3E1F /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
 		4A6FCF03942CCF490A330306749DC511 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		4BD88D7F4F35F8514DAAEFBAF835BC95 /* Pods-WalmartBucketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalmartBucketUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,10 +154,10 @@
 		616B80B53A917026575726C298DF5371 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		61B0C3055C1794A989097BF83109B210 /* WalmartSDKKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WalmartSDKKit.framework; sourceTree = "<group>"; };
 		665B2CE9C674613BF87E6AED17A5CD9E /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
-		67B216511F88987E6D1953C43964F0E6 /* ISO8601.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ISO8601.framework; path = ISO8601.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B216511F88987E6D1953C43964F0E6 /* ISO8601.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISO8601.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D6F804E81DC8225DFD5ECDB7A6CC66 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
 		685B31E0B4562B7C4966C112B7A167F5 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		6A13D78452EC63F11A4C40D3CCAA687E /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A13D78452EC63F11A4C40D3CCAA687E /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD28C32BECD2DA7A458300F8762706E /* NSDate+ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601.h"; path = "Sources/NSDate+ISO8601.h"; sourceTree = "<group>"; };
 		6B312F3056072010C30386F8357B0B45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7280173C6E72449F5E4EB34C612C4F63 /* Pods-WalmartBucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalmartBucket.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,18 +169,18 @@
 		865BFF8EE522E407C6BEBE495CA91F75 /* Pods-WalmartBucket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WalmartBucket-umbrella.h"; sourceTree = "<group>"; };
 		8839F93D643E8260850C2B6FA1C7DF37 /* Pods-WalmartBucket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WalmartBucket-dummy.m"; sourceTree = "<group>"; };
 		886EDD369F19286E925FB5CC63CC65CE /* Pods-WalmartBucketUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalmartBucketUITests-frameworks.sh"; sourceTree = "<group>"; };
-		890D3AAEE813885FD7910CA37ED69F0B /* Pods-WalmartBucket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WalmartBucket.modulemap"; sourceTree = "<group>"; };
+		890D3AAEE813885FD7910CA37ED69F0B /* Pods-WalmartBucket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WalmartBucket.modulemap"; sourceTree = "<group>"; };
 		893104E40B3E10976D4892E5C1C4C221 /* Pods-WalmartBucketUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalmartBucketUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D153DAA7B936A6143E98990A282389F /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
-		911B4BF829EA963C6C4CEEB7792F5030 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		911B4BF829EA963C6C4CEEB7792F5030 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSONModel.modulemap; sourceTree = "<group>"; };
 		9350BFD95E613C38CC792A5B6AC7D167 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9405F9EAE6EE12B56695AA45E92B65A2 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		940FB9D6F19639BE6DB48C94B87F07A1 /* Pods_WalmartBucketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WalmartBucketUITests.framework; path = "Pods-WalmartBucketUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940FB9D6F19639BE6DB48C94B87F07A1 /* Pods_WalmartBucketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalmartBucketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9449249629C5D7F1D6E9ED685C7F50CD /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		952A7C41312CB4325D9CC6D1D90437A6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		9738F3DA6C34FCDB11DBE269111D7CEA /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
-		977E828B9582F5847C50E95A6980412F /* Pods_WalmartBucketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WalmartBucketTests.framework; path = "Pods-WalmartBucketTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		977E828B9582F5847C50E95A6980412F /* Pods_WalmartBucketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalmartBucketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A535A3C8761FA07A134F5D9C6C62438 /* Pods-WalmartBucketTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalmartBucketTests-frameworks.sh"; sourceTree = "<group>"; };
 		9C2F56EC05451BE27A26F0989A67C173 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
 		A10673D0FA807A6BEE56BDEF888F42CE /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		AEB4D64911128024DFDA54299857DC3A /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		AEC39634AC9E5BE5B935CFD607240FF4 /* Pods-WalmartBucket-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalmartBucket-frameworks.sh"; sourceTree = "<group>"; };
 		AF8F6FF97A67F13D291D72F9DFA1B79C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		B232A502CD34AD231E451E0BC278B01D /* Pods_WalmartBucket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WalmartBucket.framework; path = "Pods-WalmartBucket.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B232A502CD34AD231E451E0BC278B01D /* Pods_WalmartBucket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalmartBucket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41326D954AE3598AF51470DCB06DE56 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
 		B51A2D536849A4453785B92A3B956D4B /* Pods-WalmartBucketTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WalmartBucketTests-umbrella.h"; sourceTree = "<group>"; };
 		B90D03123DA7F59638E8DC86CAE92AFC /* Pods-WalmartBucketTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalmartBucketTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		C4AD3F5D11CF9EEE0825B4A6574F8984 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		C8E97F9197226F7AE5243859C18561A4 /* Pods-WalmartBucketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalmartBucketUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CEEC31BB46DD475045E9A6D370BD54CC /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
-		CEF5E167283DB4D6B7572FAE8A50A558 /* Pods-WalmartBucketTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WalmartBucketTests.modulemap"; sourceTree = "<group>"; };
+		CEF5E167283DB4D6B7572FAE8A50A558 /* Pods-WalmartBucketTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WalmartBucketTests.modulemap"; sourceTree = "<group>"; };
 		CF4BED5D23CF949062C89CA88CDE7827 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		D0596721206AAF045C88E21D22B69768 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D362669BF9822E1D522F43B843E06817 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
@@ -347,7 +347,6 @@
 			children = (
 				99C6A97EAC4B7FD7A32CD50A3612E76F /* Frameworks */,
 			);
-			name = WalmartOpenApi;
 			path = WalmartOpenApi;
 			sourceTree = "<group>";
 		};
@@ -356,7 +355,6 @@
 			children = (
 				9ACE20F7620E35EC656574F8E85703B5 /* Frameworks */,
 			);
-			name = WalmartSDKKit;
 			path = WalmartSDKKit;
 			sourceTree = "<group>";
 		};
@@ -393,7 +391,6 @@
 				3917EDB5A6076FD98554035B5EDF2F38 /* JSONValueTransformer.m */,
 				FAFD92B3941D8318585A42552C005F31 /* Support Files */,
 			);
-			name = JSONModel;
 			path = JSONModel;
 			sourceTree = "<group>";
 		};
@@ -535,7 +532,6 @@
 				E7B059306EFFC527AE4E3A1BBDA22929 /* NSDate+ISO8601.m */,
 				BA02531CD351A313ECCA480B0ED57F86 /* Support Files */,
 			);
-			name = ISO8601;
 			path = ISO8601;
 			sourceTree = "<group>";
 		};
@@ -550,7 +546,6 @@
 				B58C7925E6998CAE00F527914308F24D /* Support Files */,
 				909C727EA9C3FA39C92257D201A752D4 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -801,6 +796,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					CF671F7E57B92905F1CC91D036D6B4A7 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1046,6 +1046,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C06E05D303D7506AC0DD9382A0C2B42 /* AFNetworking.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1333,6 +1334,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C06E05D303D7506AC0DD9382A0C2B42 /* AFNetworking.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1355,6 +1357,7 @@
 				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

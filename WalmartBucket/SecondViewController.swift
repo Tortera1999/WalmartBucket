@@ -28,7 +28,19 @@ class SecondViewController: UIViewController {
         quantityTextField.delegate = self;
         
         ImageViewOutlet.image = walmart?.image!;
-        Label.text = walmart?.name;
+        self.title = walmart?.name
+        let labelSize = Label.numberOfCharactersThatFitLabel()
+        var nextIndex = walmart?.description.startIndex
+        
+        var stringIndex = 0
+//        
+//        while (stringIndex != labelSize) {
+//            nextIndex = walmart?.description.index(nextIndex!, offsetBy: 1)
+//            stringIndex = (walmart?.description.indexDistance(of: (walmart?.description[nextIndex!])!))!
+//        }
+//        for _ in 0..<labelSize {
+//        }
+        Label.text = walmart?.description;
         
         // Do any additional setup after loading the view.
     }

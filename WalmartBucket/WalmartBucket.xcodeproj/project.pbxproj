@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A825DE511FCB841B00A6DEF3 /* CheckoutItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825DE501FCB841B00A6DEF3 /* CheckoutItemCell.swift */; };
+		A85154F01FD5A1B000FF75FC /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85154EF1FD5A1B000FF75FC /* UILabel.swift */; };
+		A85154F41FD5A43100FF75FC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85154F31FD5A43100FF75FC /* String.swift */; };
 		A859522F1FB6695600C1840E /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522A1FB6695600C1840E /* Image1.jpg */; };
 		A85952301FB6695600C1840E /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522B1FB6695600C1840E /* Image2.jpg */; };
 		A85952311FB6695600C1840E /* Image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A859522C1FB6695600C1840E /* Image3.jpg */; };
@@ -48,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		A825DE501FCB841B00A6DEF3 /* CheckoutItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutItemCell.swift; sourceTree = "<group>"; };
+		A85154EF1FD5A1B000FF75FC /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		A85154F31FD5A43100FF75FC /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		A859522A1FB6695600C1840E /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image1.jpg; path = ../Image1.jpg; sourceTree = "<group>"; };
 		A859522B1FB6695600C1840E /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image2.jpg; path = ../Image2.jpg; sourceTree = "<group>"; };
 		A859522C1FB6695600C1840E /* Image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Image3.jpg; path = ../Image3.jpg; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				A859522E1FB6695600C1840E /* Image5.jpg */,
 				D5A88AA21FCB7EA200BC571C /* checkOutItem.swift */,
 				D586871C1FB3D14C006E2C1B /* SecondViewController.swift */,
+				A85154EF1FD5A1B000FF75FC /* UILabel.swift */,
+				A85154F31FD5A43100FF75FC /* String.swift */,
 				A85952341FB6768900C1840E /* Bucketitem.swift */,
 				D58D3A151F92BFB8006EF24E /* AppDelegate.swift */,
 				A8CE6EDC1F92C2D6005E6EE0 /* Screen Shot 2017-10-12 at 6.59.27 PM.png */,
@@ -304,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85154F01FD5A1B000FF75FC /* UILabel.swift in Sources */,
+				A85154F41FD5A43100FF75FC /* String.swift in Sources */,
 				D586871D1FB3D14C006E2C1B /* SecondViewController.swift in Sources */,
 				D53BA2B91FC62E8E00ED546E /* WalmartItem.swift in Sources */,
 				D5A88AA31FCB7EA200BC571C /* checkOutItem.swift in Sources */,
